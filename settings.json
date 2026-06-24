@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "NPC",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "24/7 bot",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "Chleba_ve_strouhance.aternos.me:48313",
+    "port": 48313,
     "version": "",
     "try-creative": false
   },
@@ -60,7 +60,7 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
@@ -70,7 +70,7 @@
   },
   "beds": {
     "pick-up-day": false,
-    "place-night": false
+    "place-night": true
   },
   "discord": {
     "enabled": false,
